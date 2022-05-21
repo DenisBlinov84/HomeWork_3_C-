@@ -3,17 +3,32 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
+// Console.Clear();
+// Console.Write("Введите число: ");
+
+// string s_n_1 = Console.ReadLine();
+// int n_1 = int.Parse(s_n_1);
+
 // void Squares(int num)
 // {
 //     int i = 1;
+//     Console.Write($"{num} -> ");
 
 //     while (num >= i)
 //     {
-//         Console.WriteLine(Math.Pow(i, 2));
+//         Console.Write($"{(Math.Pow(i, 3))} ");
 //         i++;
 //     }
+//     Console.WriteLine( );
 // }
-// Squares(5);
+// Squares(n_1);
+
+
+Console.Clear();
+Console.Write("Введите число: ");
+
+string s_n_1 = Console.ReadLine();
+int n_1 = int.Parse(s_n_1);
 
 void Squares(int n)
 {
@@ -30,5 +45,4 @@ void Squares(int n)
     Console.WriteLine();
 }
 
-Squares(3);
-Squares(5);
+Squares(n_1);
